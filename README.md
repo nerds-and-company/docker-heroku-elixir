@@ -1,2 +1,3 @@
-# docker-heroku-elixir
-Docker image for Heroku Elixir
+# Docker image for Heroku Elixir
+
+Usage: `FROM nerdsandcompany/docker-heroku-elixir`
