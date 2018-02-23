@@ -12,6 +12,7 @@ ENV ELIXIR_VERSION 1.6.1
 ENV NODE_ENGINE 8.9.4
 
 ENV LC_ALL en_US.UTF-8
+ENV SECRET_KEY_BASE $(openssl rand -base64 32)
 
 # Create some needed directories
 RUN mkdir -p /app/.heroku/erlang /app/.heroku/elixir /app/.heroku/node /app/.profile.d
